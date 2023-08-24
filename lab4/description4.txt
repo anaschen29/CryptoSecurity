@@ -1,1 +1,13 @@
+RSA Attack!
+
+We implement the broadcast attack, which conducts an inverse-CRT to determine the original message, given encryptions of it under different RSA keys. 
+
+Files:
+keys.txt: RSA public keys
+
+ciphertexts.txt: Ciphertexts corresponding to the same message under the above keys
+
+rsa attack.py: The actual attack!
+
+In particular, we resort to a special root-finding algorithm as the floating-point methods fail with such huge numbers. 
 
