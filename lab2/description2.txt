@@ -1,1 +1,11 @@
-Discrete Logarithms. 
+Discrete Logarithms... 
+
+We use the notation of group theory: let G be a cyclic group, g a generator, and m an element. We say that DL_g(m) = x if x is the smallest nonnegative integer sucht hat g^m=x. 
+
+
+There are two files in this folder:
+
+
+inputs.txt: Message m.
+
+dl.py: python-based program to compute the discrete logarithm DL_g(x), where g is a generator for G=GF(p)^\times. Both g,p are listed in this file. 
