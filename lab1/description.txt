@@ -1,1 +1,11 @@
-Theory teaches us that it is insecure to use the same key twice for symmetric encryption. This point of this assignment is to design a cryptanalytic attack which demonstrates this: we use a library of known English words to completely retrieve two original message that were encrypted using the same key under symmetric encryption.
+Theory teaches us that it is insecure to use the same key twice for symmetric encryption. This point of this assignment is to design a cryptanalytic 
+attack which demonstrates this: we use a library of known English words to completely retrieve two original message that were encrypted 
+using the same key under symmetric encryption.
+
+1000_dict.txt : contains a list of 'valid' English words. 
+
+c1.bin : first ciphertext
+
+c2.bin : second ciphertext
+
+Lab1.ipynb : Jupyter notebook of the code needed to solve the assignment. 
