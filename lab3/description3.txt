@@ -1,0 +1,4 @@
+In this lab, we implement the CRIME attack, which infers the contents of a message by observing 
+the change in size of the compressed payload. This attack specifically targeted the gzip compression algorithm.
+
+  
